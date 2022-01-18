@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 992px;
+  box-shadow: 3px 13px 7px 5px grey;
+  border: solid 4px #800000;
+  margin: 0 auto;
+}
+main {
+  padding: 10px 40px;
+  background: rgb(229 219 196 / 59%);
+}
+.paddinghead {
+  padding: 0 40px;
+}
+header {
+  border-bottom: solid 4px #800000;
+  background-image: -webkit-linear-gradient(
+    30deg,
+    #f6bb73 0%,
+    #f6bb73 30%,
+    white 50%,
+    #f6bb73 80%,
+    #f6bb73 100%
+  );
+  padding: 20px 0;
+}
+
+header div img {
+  height: 80px;
+  float: left;
+}
+header h2 {
+  color: #800000;
+  font-size: 170%;
+  text-indent: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+header h3 {
+  font-size: 130%;
+  font-style: italic;
+  text-indent: 30px;
+  margin-top: 0;
+}
+main h1 {
+  font-size: 150%;
+  margin-top: 15px;
+  color: black;
+  margin-bottom: 3px;
+}
+main h2 {
+  font-size: 130%;
+  color: #800000;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+main div h3 {
+  font-size: 105%;
+  margin-bottom: 6px;
+}
+a h3 {
+  padding: 0;
+  margin-bottom: 6px;
+  margin-top: 0;
+}
+
+a.hoverspeaker :focus,
+a.hoverspeaker :hover {
+  font-style: italic;
+  color: blue;
+}
+footer p {
+  text-align: center;
+  background-color: #800000;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+.shadow {
+  text-shadow: 2px 2px 2px #800000;
+}
+.paddingspeakers {
+  padding-left: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.asideleft {
+  width: 30%;
+}
+.mainright {
+  width: 70%;
+}
+.speakermonth h1 {
+  color: black;
+}
+.speakermonth h2 {
+  margin-top: 6px;
+}
+.speakermonth > div {
+  margin-bottom: 6px;
+}
+.martop0 {
+  margin-top: 0px;
+}
+.maincontent {
+  display: flex;
+}
+.maincontent img {
+  object-fit: contain;
+}
+.padul {
+  padding-left: 24px;
+}
+ul.martop0 {
+  margin-bottom: 7px;
+}
+.content div h3 {
+  font-size: 105%;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.content img {
+  margin-bottom: 10px;
+  margin-top: 4px;
+}
+.infosamp {
+  margin-top: 27px;
+}
